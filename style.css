@@ -53,7 +53,7 @@ ul {
     font-display:bold;
     color: aliceblue; 
     text-align: left;
-    flex-wrap: nowrap;
+    text-wrap: nowrap;
 }
 
 #s1ui1{
@@ -70,8 +70,8 @@ ul {
 
   ul li {
     margin-bottom:5px;
-    gap: 1rem;
-    flex-wrap:nowrap;
+    gap: 2rem;
+    text-wrap: nowrap;
 }
 
 .Section2{
@@ -107,6 +107,7 @@ ul {
     /* border:solid green; */
     display:flex;
     background-color: blueviolet;
+    text-wrap: nowrap;
     height:40px;
 }
 
@@ -166,11 +167,24 @@ ul {
 .SecProgram
 {
     /* border: solid green; */
-    padding :20px;
+    padding :10px;
 }
 
 .Language
 {
     /* border: solid green; */
-    padding :20px;
+    padding :10px;
+}
+
+#file{
+        width: 50%;
+        margin-left: 3.5%;
+        height: 15px;
+        /* background-color: #2145bb;
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 ); */
+        border-radius: 7px;
+}
+
+.skills{
+    font-size: 20px;
 }
