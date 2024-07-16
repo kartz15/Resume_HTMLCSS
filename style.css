@@ -1,0 +1,176 @@
+
+body{
+    /* border: solid red; */
+    /* height:400px; */
+    background-color:black;
+}
+.Section1{
+    /* border:solid red; */
+    padding:2em;
+    display:flex;  
+}
+
+.img{
+    height:100%;
+    width:100%;
+}
+.s1Box1{
+    /* width:100px; */
+}
+
+.s1Box2{
+    width:100px;
+    flex-wrap:wrap;
+    margin:1em;
+    color: white;
+}
+
+.s1Box3{
+    width:100px; 
+}
+
+#Sbox1{
+    /* border:solid blue; */
+    width:20%; 
+}
+
+#Sbox2{
+    /* border:solid rgb(50, 156, 104); */
+    width:30%;
+}
+
+#Sbox3{
+    /* border:solid rgb(53, 134, 205); */
+    width:60%;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+ul {
+    list-style-type:none; /* Remove bullets */
+    font-size: 25px;
+    font-style: italic;
+    font-display:bold;
+    color: aliceblue; 
+    text-align: left;
+    flex-wrap: nowrap;
+}
+
+#s1ui1{
+    /* border: solid blueviolet; */
+    text-align-last:right;
+    width:60%;
+}
+
+#s2ui2{
+    text-align-last:left;
+    /* border: solid blueviolet; */
+    width:60%;
+}
+
+  ul li {
+    margin-bottom:5px;
+    gap: 1rem;
+    flex-wrap:nowrap;
+}
+
+.Section2{
+    /* border:solid pink; */
+    color:aliceblue;
+    font-size:20px;
+    padding:1em;
+    display: flex;
+}
+
+.Section3{
+    /* border:solid pink; */
+    color:aliceblue;
+    padding:1em;
+    display: flex;
+}
+
+.S3Box1{
+    /* border:solid yellow; */
+    /* height:900px; */
+    width:60%;
+    padding:1em;
+}
+
+.S4Box1{
+    /* border:solid yellow; */
+    /* height:900px; */
+    width:40%;
+    padding:1em;
+}
+
+.TitleSec{
+    /* border:solid green; */
+    display:flex;
+    background-color: blueviolet;
+    height:40px;
+}
+
+.arrow{
+    /* border: solid black; */
+    height:40px;
+    width:40px;
+}
+
+.HeaderSec{
+    font-size: 30px;  
+    font-style: italic;
+}
+
+.workSec{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding:.2em;
+}
+
+.EduTitle{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding:.2em;
+}
+
+
+#Wid1{
+    font-size: 25px;
+}
+
+.Desc{
+    font-size: 17px;
+}
+
+.EduSec{
+    /* border:solid green; */
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:.2em;
+}
+
+#Wid1{
+    font-size: 25px;
+}
+
+.Desc{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.SecProgram
+{
+    /* border: solid green; */
+    padding :20px;
+}
+
+.Language
+{
+    /* border: solid green; */
+    padding :20px;
+}
